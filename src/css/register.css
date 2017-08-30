@@ -1,0 +1,118 @@
+body{
+	background: #F2F2F2;
+}
+.header{
+	width: 100%;
+	min-width: 1190px;
+	float: left;
+}
+.logobox{
+	max-width: 990px;
+	margin: auto;
+	clear: both;
+}
+.logo {
+    float: left;
+    margin: 25px 0 20px 0;
+}
+.main{
+	    width: 1190px;
+    margin: 0 auto;
+    clear: both;
+}
+.register {
+    width: 600px;
+    margin: 0 auto;
+}
+.titlebox{
+	    width: 100%;
+    position: relative;
+    border-bottom: 1px solid #D7D7D7;
+}
+.title{
+    line-height: 30px;
+    padding: 10px 5px;
+    position: relative;
+    text-align: center;
+    font-size: 24px;
+}
+.content{
+	margin-top: 40px;
+}
+.item {
+    width: 420px;
+    margin: 15px auto 0;
+    position: relative;
+    clear: both;
+}
+.register .content .label {
+    float: left;
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+    padding: 8px 0;
+}
+.register .content input[type="text"],.register .content input[type="password"] {
+    display: block;
+    border: 1px solid #D7D7D7;
+    width: 250px;
+    padding: 7px 5px;
+}
+#yzm{
+	width: 140px;
+	margin-right: 10px;
+	float: left;	
+}
+#sendyzm{
+	    width: 100px;
+    height: 38px;
+    border: 1px solid #D7D7D7;
+    margin: 0;
+    background: #F2F2F2;
+    cursor: pointer;
+}
+.register .bottom {
+    clear: both;
+    width: 300px;
+    margin: 10px 0 10px 110px;
+}
+.register .bottom input {
+    vertical-align: middle;
+    height: auto;
+    width: auto;
+    margin: auto;
+}
+.register .bottom label {
+    margin: 0 5px;
+    float: none;
+}
+#registerbtn{
+	width: 262px;
+    margin: 0 0 50px 110px;
+    padding: 10px 0;
+    font-size: 18px;
+    background: #E40011;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.register .btn-register {
+    width: 262px;
+    margin: 0 0 50px 110px;
+    padding: 10px 0;
+    font-size: 18px;
+    background: #E40011;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.error{
+	color: red;
+	position: relative;
+	margin-left: 110px;
+}
+.yzM .error{
+	color: red;
+	position: relative;
+	margin-left: 0;
+}

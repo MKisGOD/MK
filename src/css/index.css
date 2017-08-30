@@ -1,0 +1,279 @@
+.clear{
+	clear: both;
+}
+#indlb{
+	width: 100%;
+}
+#indlb .lbbox{
+	width: 1190px;
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+}
+#indlb .btn{
+	position: absolute;
+    left: 50%;
+    bottom: 0;
+}
+#indlb .btn a {
+    text-decoration: none;
+    height: 16px;
+    width: 16px;
+    background: #85a5b5;
+    color: #4E443C;
+    border-radius: 16px;
+    text-indent: -9999px;
+    float: left;
+    margin: 0 8px;
+}
+#indlb .btn .active{
+	    background: #e81a29;
+    color: #fff;
+    opacity: 1;
+}
+#indlb .imgbox{
+	width: 6666px;
+	position: relative;
+}
+#indlb .imgbox img{
+	float: left;
+}
+#sth a{
+	    color: #545454;
+    cursor: pointer;
+}
+#sth .banner{
+	width: 1190px;
+	margin: 0 auto;
+}
+#sth .banner_header{
+	    margin-top: 25px;
+	    position: relative;
+}
+#sth .banner .title{
+	width: 190px;
+	padding: 5px;
+	float: left;
+    background: #70c4d8;
+    font-size: 18px;
+    font-family: "microsoft yahei";
+    line-height: 24px;
+}
+#sth .banner .title span{
+	    float: left;
+    padding: 4px;
+    color: #fff;
+}
+#sth .banner .title img{
+	float: left;
+    width: 30px;
+    height: 30px;
+    margin: 0 5px 0 35px;
+        vertical-align: bottom;
+}
+#sth .items{
+	width: 110%;
+	clear: both;
+}
+ #sth .items a{
+ 	 float: left;
+    margin-right: 20px;
+    }
+#sth .banner .more{
+	float: right;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: right;
+    width: 300px;
+    margin: 10px 50px 0 0;
+}
+#sth .items dl{
+	    background: #fff;
+    float: left;
+    height: 275px;
+    margin: 0 10px 0 0;
+    border: 3px solid #fff;
+    position: relative;
+    width: 214px;
+}
+#sth .items dl:hover a {
+    color: #e40011;
+}
+#sth .items dd a{
+	height: 22px;
+    font-size: 14px;
+    overflow: hidden;
+    float: left;
+    width: 100%;
+    margin-left: 5px;
+}
+#sth .items .price{
+	    position: absolute;
+    bottom: 10px;
+    left: 5px;
+}
+#sth .items .price .big-price{
+	font-size: 14px;
+	color: red;
+}
+#sth .banner .banner_page {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 34px;
+}
+
+#sth .banner .banner_page a {
+    border-radius: 30px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    display: block;
+}
+
+#sth .banner .banner_page a.on, #sth .banner .banner_page a:hover {
+    color: #FFF;
+    background: #e84652;
+    border: 1px solid #ddd;
+    padding: 1px;
+}
+
+#sth .time_header{
+	width: 1190px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+#sth .time_header .time_img{
+    width: 1190px;
+    height: 60px;
+    float: left;
+}
+#sth .time_header .time_more{
+	    float: right;
+    font-size: 14px;
+    font-family: "microsoft yahei";
+    line-height: 24px;
+    text-align: right;
+    width: 300px;
+    padding: 0 0 5px;
+    margin-right: 50px;
+}
+#sth .fresh{
+	width: 1190px;
+	margin: 0 auto;
+}
+#sth .fresh .title {
+    width: 330px;
+    float: left;
+}
+#sth .fresh .ff{
+	float: left;
+	border: none;
+}
+#sth .fresh_box{
+	width: 1190px;
+	margin: 50px auto 20px;
+    position: relative;
+}
+#sth .fresh_box .title {
+    border-bottom: 5px solid #d1d1d1;
+    float: left;
+    width: 100%;
+}
+#sth .fresh_box .title_big{
+	    position: relative;
+    float: left;
+    font-size: 24px;
+    color: #fff;
+    width: 200px;
+}
+#sth .fresh_box .title_big .floor_div{
+	    float: left;
+    width: 42px;
+    height: 42px;
+    background: url(img/hp-titlebg.png);
+    background-position: 0px 0px;
+}
+#sth .fresh_box .title_big .floor_div .floor{
+    position: absolute;
+    left: 7px;
+    top: 11px;
+}
+#sth .fresh_box .title_big .floor_name{
+	    position: absolute;
+    left: 62px;
+    font-size: 32px;
+    line-height: 38px;
+    top: 2px;
+    font-family: "microsoft yahei";
+    color: rgb(224,23,69);
+}
+#sth .fresh_box .right {
+    float: right;
+    margin-top: 20px;
+    color: #d1d1d1;
+}
+ #sth .fresh_box .right a{
+ 	padding: 10px 5px;
+    margin: 0 10px; 
+}
+#sth .fresh_box .checked {
+    text-decoration: underline;
+    color: #E40011;
+}
+
+#sth .fresh_box .fresh-left {
+    float: left;
+    position: relative;
+}
+
+#sth .fresh_box .fresh-left .links {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#sth .fresh_box  .fresh-left .links a {
+    margin: 15px 0 10px 21px;
+    display: block;
+    float: left;
+    width: 96px;
+    border-bottom: 1px solid #C6C2C1;
+}
+#sth .fresh_box .fresh-right {
+    width: 249px;
+    height: 630px;
+    float: right;
+    overflow: hidden;
+}
+#sth .fresh_box .fresh-right img{
+        vertical-align: bottom;
+}
+#sth .fresh_box .fresh-center{
+	float: left;
+    width: 690px;
+    height: 630px;
+    position: relative;
+}
+#sth .fresh_box .fresh-center-page{
+	    float: left;
+    width: 400px;
+    margin-top: -47px;
+}
+#sth .fresh_box .fresh-center-page a{
+	    padding: 10px 20px;
+    font-size: 14px;
+    margin: 0 10px;
+    color: #7D7D7D;
+    float: left;
+}
+#sth .fresh_box .fresh-center-page a.checked {
+    border-bottom: 5px solid #E40011;
+    font-weight: bolder;
+    color: black;
+}

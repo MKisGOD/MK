@@ -1,0 +1,240 @@
+#sth {
+	min-height: 100px;
+}
+
+#header {
+	height: 177px;
+}
+
+#header4 .tit .fenlei {
+	display: none;
+}
+
+#header4 .tit:hover .fenlei {
+	display: block;
+}
+
+.addre {
+	width: 1190px;
+	margin: 6px auto 12px auto;
+	position: relative;
+	height: 32px;
+}
+
+.addre a {
+	line-height: 22px;
+	float: left;
+	padding: 5px 10px;
+}
+.addre span{
+	line-height: 22px;
+	float: left;
+	padding: 5px 6px;
+}
+.prolist-intro{
+width: 1190px;
+margin:0 auto;
+}
+.preview{
+float: left;
+}
+.preview .spec-preview {
+    width: 400px;
+    height: 400px;
+    border: 1px solid #DFDFDF;
+}
+.preview .jqzoom {
+    float: left;
+    border: none;
+    position: relative;
+    padding: 0px;
+    cursor: pointer;
+    margin: 0px;
+    display: block;
+}
+.jqzoom img{
+width: 400px;
+height: 400px;
+}
+.preview .spec-scroll {
+    /* float: left; */
+    margin-top: 10px;
+    width: 402px;
+}
+.preview .spec-scroll .prev, .spec-scroll .next {
+    display: block;
+    text-align: center;
+    width: 10px;
+    height: 64px;
+    background: url(img/spec-scroll-bg.png) no-repeat 0 30px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.preview .spec-scroll .prev {
+    float: left;
+    margin-right: 10px;
+}
+.preview .spec-scroll .next {
+    float: right;
+    background-position: -10px 30px;
+}
+.preview .spec-scroll .items {
+    float: left;
+    position: relative;
+    width: 368px;
+    height: 64px;
+    overflow: hidden;
+}
+.preview .spec-scroll .items ul {
+    position: absolute;
+    width: 999999px;
+    height: 64px;
+}
+.preview .spec-scroll .items li {
+    float: left;
+    width: 75px;
+    text-align: center;
+}
+.preview .spec-scroll .items li img:hover, .preview .spec-scroll .items li.on img {
+    border: 2px solid #FF6600;
+    padding: 0;
+}
+.preview .spec-scroll .items li img {
+    border: 1px solid #CCC;
+    padding: 1px;
+    width: 60px;
+    height: 60px;
+    display: block;
+}
+.prosummary {
+    width: 748px;
+    float: left;
+    padding: 5px 20px 10px 20px;
+    min-height: 380px;
+}
+.prosummary .p-name {
+    padding-bottom: 5px;
+    width: 100%;
+    overflow: hidden;
+}
+.prosummary .p-name h1 {
+    font-size: 18px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.danjia{
+background: #EFEFEF;
+    padding: 15px 2% 6px 2%;
+    margin: 0;
+    width: 96%;
+    }
+    
+.prosummary .summary-quantity b{
+       margin-top: 15px;
+}
+.prosummary .summary-quantity{
+position: relative;
+height: 60px;
+}
+.prosummary .quantity-form {
+    overflow: hidden;
+    float: left;
+    width: 100px;
+    margin: 10px 0 5px -2px;
+}
+.prosummary b {
+    width: 65px;
+    float: left;
+    font-weight: normal;
+    color: #999;
+}
+.proid{
+	display: none;
+}
+.prosummary .quantity-form a.decrement {
+    margin: 0 0 0 2px;
+}
+.prosummary .quantity-form a {
+    font-size: 22px;
+    text-align: center;
+    color: #d9d9d9;
+    width: 19px;
+    height: 25px;
+    padding-top: 5px;
+    border: 1px solid #e4e4e4;
+    float: left;
+    background: #fff;
+    cursor: pointer;
+}
+.prosummary .quantity-form .quantity-text {
+    border: 1px solid #c9c9c9;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    width: 30px;
+}
+.toulan{
+width: 235px;
+height: 102px;
+background: url(../img/toulan1.png);
+/*position: absolute;*/
+/*left:451px;*/
+}
+.btnlist{
+	margin: 10px 0 0 10px;
+}
+.btnlist a{
+	margin-right: 10px;
+	cursor: pointer;
+}
+.product-right {
+    width: 980px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+    /*background: red;*/
+   border-bottom: 1px solid #C6C2C1;
+}
+.product-right .product-nav {
+    border: 1px solid #e6e6e6;
+    float: left;
+    width: 978px;
+}
+.product-right .product-nav a {
+    padding: 6px 20px;
+    float: left;
+    font-weight: bold;
+    border-right: 1px solid #f1f0f0;
+}
+.product-right .product-nav a.on {
+    background: #e81a29;
+    color: #FFF;
+}
+.product-content {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.product-right .words-area {
+    background: #F2F2F2;
+    margin-bottom: 10px;
+    float: left;
+    width: 950px;
+    padding: 15px;
+}
+.product-right .words-area li{
+	float: left;
+	width: 33%;
+}
+.protip-item {
+    background: #F2F2F2;
+    border: 1px solid #D7D7D7;
+    margin-bottom: 20px;
+    padding: 0 15px 15px 15px;
+}
+
+.product-right h2 {
+    font-size: 14px;
+    margin-top: 15px;
+}

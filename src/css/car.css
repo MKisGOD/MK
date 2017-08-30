@@ -1,0 +1,371 @@
+body{
+    background-color: #f9f9f9;
+    }
+#header{
+	height: auto;
+}
+#header1 .header1_box{
+	width: 990px;
+}
+#header3{
+	    background-color: #f9f9f9
+}
+#header3 .header3_box{
+	width: 990px;
+	    /*border-bottom: 3px solid #d90111;*/
+	    padding-bottom: 10px;
+}
+#header3 .search{
+	float: right;
+	margin-right: 10px;
+}
+.car-empty{
+	width: 990px;
+	margin: auto;
+	position: relative;
+}
+.pack{
+    width: 100%;
+    min-height: 405px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.mycartitle{
+	font-weight: bolder;
+	font-size: 16px;
+	padding:5px 0 10px;
+	margin: 5px 0;
+}
+.step-header {
+    width: 516px;
+    position: absolute;
+        top: -64px;
+    right: 0;
+}
+.step-header .item {
+    float: left;
+}
+.step-header .cart-img {
+    background: url(img/icon_cart.png);
+    width: 39px;
+    height: 34px;
+    float: left;
+}
+.step-header .text {
+    border-bottom: 1px solid #ebedec;
+    float: left;
+    width: 64%;
+    text-align: center;
+    padding: 6px;
+    margin: -16px 10px;
+    color: #C6C2C1;
+    position: relative;
+}
+.step-header .doing .text {
+    border-color: #E40011;
+    color: #7d7d7d;
+}
+
+.step-header .count {
+    background: url(img/icon_cercle_grey.png);
+    width: 34px;
+    height: 34px;
+    text-align: center;
+    float: right;
+    position: relative;
+}
+.step-header .doing .count
+{
+	background: url(img/icon_cercle.png);
+	margin-left: 40px;
+}
+.step-header .count span {
+    display: block;
+    margin-top: 6px;
+    font-size: 18px;
+    color: #fff;
+}
+ .step-header .doing .count span {
+    color: #E40011;
+}
+.mycar{
+		width: 990px;
+		margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.tb{
+	border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    word-break: break-all;
+    word-wrap: break-word;
+	border: 0;
+    background: #fff;
+    border-bottom: 2px solid #e0e0e0;
+    margin-bottom: 30px;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr.title {
+    border-top: 3px solid #e40011;
+}
+user agent stylesheet
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.title td {
+    padding: 10px;
+    background: #F2F2F2;
+}
+table .common-width {
+    width: 13%;
+}
+table .shop-goods {
+    text-align: left;
+    height: 40px;
+}
+table .shop-goods th {
+    padding: 2px 0 0 10px;
+    text-align: left;
+    background: #f9f9f9;
+    border-bottom: 1px solid #e40011;
+}
+.shop-goods label {
+    font-size: 14px;
+    margin-left: 0;
+}
+table td {
+    vertical-align: top;
+    padding: 20px 0;
+}
+table .selected td {
+    background: #fdf2d8;
+}
+table .goods-detail {
+    width: 600px;
+    padding-left: 10px;
+}
+table .money {
+    font-size: 18px;
+    color: #E40011;
+    font-weight: bold;
+}
+table .goods-detail div {
+    float: left;
+    position: relative;
+}
+table .goods-detail .word-detail {
+    text-align: left;
+    margin-left: 10px;
+    width: 210px;
+}
+table .goods-detail .img-detail input {
+    vertical-align: top;
+    margin-right: 15px;
+}
+table .goods-detail img {
+    width: 80px;
+    height: 80px;
+}
+table .price .price-now {
+    font-size: 16px;
+    font-weight: bold;
+}
+table .numberbtn {
+    margin-left: 8px;
+}
+table .number a {
+    display: block;
+    float: left;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #D7D7D7;
+    line-height: 30px;
+    font-size: 18px;
+    background: #F2F2F2;
+    cursor: pointer;
+}
+table .number input {
+    float: left;
+    width: 50px;
+    height: 30px;
+    padding: 0;
+    margin: 0 -1px;
+    text-align: center;
+}
+.bottom {
+    margin-bottom: 30px;
+    width: 100%;
+    float: left;
+    border-top: 1px solid #D7D7D7;
+    background: #F2F2F2;
+}
+.bottom .all-select {
+    float: left;
+    margin: 21px 0 0 10px;
+}
+.all-select input {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.bottom .del {
+    float: left;
+    margin: 21px 0 0 30px;
+}
+.bottom .del a {
+    color: #7D7D7D;
+}
+.bottom .btn-area {
+    float: right;
+}
+.bottom .btn-area input {
+    display: block;
+    width: 110px;
+    height: 64px;
+    padding: 0;
+    background: #E40011;
+    color: #FFFFFF;
+    margin: -1px -1px 0 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.bottom .right {
+    float: right;
+    padding: 5px 0;
+}
+.bottom .number-sum {
+    width: 130px;
+    clear: left;
+}
+.bottom .number-sum .total-num {
+    font-size: 16px;
+    color: #E40011;
+    margin: 0 4px;
+    font-weight: bold;
+}
+.bottom .price-sum {
+	display: block;
+}
+.price-sum .red {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #FF0000;
+}
+/*空车*/
+.emptycar{
+	width: 990px;
+	margin: 0 auto;
+	border-top: 3px solid #d90111;
+	padding-top: 100px;
+	position: relative;
+	height: 200px;
+}
+.emptycar .point {
+    width: 580px;
+    height: 100%;
+    margin: auto;
+}
+.point img{
+    float: left;
+    width: 70px;
+}
+.world-point {
+    width: 490px;
+    float: left;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #2c2c2c;
+}
+.world-point .ct {
+    margin: 0 0 15px 20px;
+}
+.world-point .ct li {
+    font-size: 14px;
+    list-style: disc;
+}
+.contan {
+    padding-top: 12px;
+}
+.link {
+    display: block;
+    float: left;
+    width: 90px;
+    padding: 4px;
+    color: #FFFFFF;
+    text-align: center;
+    background: #e40011;
+    font-size: 12px;
+}
+.link:hover{
+	color: white;
+}
+.likebox{
+	position: relative;
+	width: 990px;
+	margin: auto;
+}
+.like {
+    float: left;
+    font-size: 18px;
+    color: #656565;
+}
+.change {
+    float: right;
+}
+.title{
+	position: relative;
+	width: 990px;
+}
+.title a {
+    float: left;
+    display: block;
+    height: 24px;
+    width: 24px;
+    margin-left: 2px;
+    text-align: center;
+    border-radius: 12px;
+}
+.selected {
+    background: #e50112;
+    color: #FFFFFF;
+}
+.selected:hover{
+	color: #FFFFFF;
+}
+.goods {
+    float: left;
+    margin: 10px auto auto auto;
+    width: 990px;
+    border-top: 2px solid #c0c0c0;
+}
+.goods dl {
+    width: 160px;
+    height: 230px;
+    float: left;
+    margin: 17px 16px 0 16px;
+    padding: 0 0 17px 0;
+}
+.goods dd {
+    padding: 5px;
+    float: left;
+        text-align: center;
+}
+.detail {
+    height: 22px;
+    font-size: 14px;
+    overflow: hidden;
+    width: 100%;
+    margin-left: 60px;
+}
+.big-price {
+    font-size: 14px;
+    color: red;
+}

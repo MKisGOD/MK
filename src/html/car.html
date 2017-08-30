@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<link rel="stylesheet" href="../css/common.css" type="text/css" />
+		<link rel="stylesheet" href="../css/car.css" type="text/css" />
+		<script type="text/javascript" src="../js/base.js"></script>
+		<script type="text/javascript" src="../js/jquery-1.12.0.js"></script>
+		<script src="../js/common.js"></script>
+		<script src="../js/car.js"></script>
+	</head>
+
+	<body>
+
+		<div id="header">
+			<div id="head">
+				<div id="header1" class="topyc">
+					<div class="header1_box">
+						<div class="header1_login">
+							<span>Hi，欢迎来永辉超市&nbsp;&nbsp;&nbsp;</span>
+							<a href="login.html">登录</a>&nbsp;&nbsp;&nbsp;
+							<a href="register.html">免费注册</a>
+							<a class="exitbtn" href="car.html">退出登录</a>
+						</div>
+						<div class="header1_help">
+							我的永辉
+							<a class="header1_phone" href="#">手机永辉
+								<div class="header1_phongimg"><img src="../css/img/bottom-fixednav6.jpg"></div>
+							</a>
+							<a href="#">帮助中心</a>
+						</div>
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div id="header3" class="topxs">
+					<div class="header3_box">
+						<div class="header3_logo topyc">
+							<a href="../index.html"><img src="../img/logo.jpg" /></a>
+						</div>
+						<div class="search">
+							<form>
+								<input type="text" placeholder="请输入关键字" />
+								<button>搜索</button>
+							</form>
+							<span class="topyc">
+								<a href="#">凉席</a>
+								<a href="#">凉席</a>
+								<a href="#">凉席</a>
+								<a href="#">凉席</a>
+								<a href="#">凉席</a>
+								<a href="#">凉席</a>
+								<a href="#">凉席</a>
+								<a href="#">凉席</a>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div class="sth">
+			<!--购物车-->
+			<div class="car-empty">
+				<!--非空车-->
+				<div class="mycartitle">我的购物车</div>
+				<div class="step-header">
+					<div class="cart-img"></div>
+					<div class="item doing">
+						<div class="text">
+							我的购物车
+						</div>
+						<div class="count">
+							<span>1</span>
+						</div>
+					</div>
+					<div class="clear"></div>
+					<div class="item">
+						<div class="text">
+							填写核对订单信息
+						</div>
+						<div class="count">
+							<span>2</span>
+						</div>
+					</div>
+					<div class="item">
+						<div class="text">
+							成功提交订单
+						</div>
+						<div class="count">
+							<span>3</span>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="pack">
+				<div class="mycar">
+					<table class="tb">
+						<tbody>
+							<tr class="title">
+								<td>商品简介</td>
+								<td class="common-width">单价</td>
+								<td class="common-width">数量</td>
+								<td class="common-width">金额(元)</td>
+								<td class="common-width">操作</td>
+							</tr>
+							<tr class="shop-goods">
+								<th colspan="5">
+									<input type="checkbox" name="checkall" value="all" checked="checked" />
+									<label for="">永辉福建福州市--黎明店订单商品</label>
+								</th>
+							</tr>
+							<!--<tr class="selected">
+								<td class="goods-detail">
+									<div class="img-detail">
+										<input type="checkbox" name="checkItem" checked="checked" value="" />
+										<a href="#"><img src="../img/cw.jpg"></a>
+									</div>
+									<div class="word-detail"><a href="#">超威萨芬大是大非</a>
+										<p><b>配送方式：</b>半日达、门店自提</p>
+									</div>
+								</td>
+								<td class="price common-width">
+									<p class="price-now">￥9.90</p>
+								</td>
+								<td class="number common-width">
+									<div class="numberbtn">
+									<a class="jianshuliang">-</a>
+									<input type="text" name="shuliang" value="1" class="quantity-text">
+									<a class="jiashuliang">+</a>
+									</div>
+								</td>
+								<td class="money common-width">￥9.90</td>
+								<td class="operation common-width">
+									<a href="#" id="del_0">删除</a>
+								</td>
+							</tr>-->
+						</tbody>
+					</table>
+					<div class="bottom">
+						<div class="all-select">
+							<input type="checkbox" name="checkal" value="all" checked="checked">
+							<label for="">全选</label>
+						</div>
+						<div class="del">
+							<a class="delselected" href="#">删除</a>
+						</div>
+						<div class="btn-area">
+							<input type="button" value="结账">
+						</div>
+
+						<div class="right">
+							<div class="number-sum">
+								已选商品<span class="total-num">9</span> 件</div>
+							<div class="price-sum">
+								<span>合计(不含运费):</span><span class="red">￥244.00</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--空车-->
+		<div class="emptycar">
+			<div class="point">
+				<img src="../css/img/checkout-cart_empty_05.png" />
+				<div class="world-point ">亲，您的购物车还是空的哦~您可能：
+					<ul class="ct">
+						<li>还没有将商品加入购物车，马上去逛逛吧！</li>
+						<li>选购的商品在当前配送门店已被抢光了，换个<b>收货地址</b>或<b>自提门店</b>看看吧！</li>
+					</ul>
+					<div class="contan">
+						<a href="list.html" class="link">去逛逛</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="clear"></div>
+		<!--猜你喜欢-->
+		<div class="likebox">
+			<div class="title">
+				<div class="like">猜你喜欢</div>
+				<div class="change">
+					<a class="selected" href="">1</a>
+					<a>2</a>
+					<a>3</a>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="goods" style="display: block;">
+				<dl>
+					<dt><a href="#"><img src="../img/xmt.jpg"></a></dt>
+					<dd>
+						<a class="detail" href="#">
+								梅塔糟菜75g</a>
+						<div class="price">
+							<span class="big-price red">
+                	￥0.9</span>
+						</div>
+					</dd>
+				</dl>
+				<dl>
+					<dt><a href="#"><img src="../img/xmt.jpg"></a></dt>
+					<dd>
+						<a class="detail" href="#">
+								梅塔糟菜75g</a>
+						<div class="price">
+							<span class="big-price red">
+                	￥0.9</span>
+						</div>
+					</dd>
+				</dl>
+				<dl>
+					<dt><a href="#"><img src="../img/xmt.jpg"></a></dt>
+					<dd>
+						<a class="detail" href="#">
+								梅塔糟菜75g</a>
+						<div class="price">
+							<span class="big-price red">
+                	￥0.9</span>
+						</div>
+					</dd>
+				</dl>
+				<dl>
+					<dt><a href="#"><img src="../img/xmt.jpg"></a></dt>
+					<dd>
+						<a class="detail" href="#">
+								梅塔糟菜75g</a>
+						<div class="price">
+							<span class="big-price red">
+                	￥0.9</span>
+						</div>
+					</dd>
+				</dl>
+				<dl>
+					<dt><a href="#"><img src="../img/xmt.jpg"></a></dt>
+					<dd>
+						<a class="detail" href="#">
+								梅塔糟菜75g</a>
+						<div class="price">
+							<span class="big-price red">
+                	￥0.9</span>
+						</div>
+					</dd>
+				</dl>
+			</div>
+		</div>
+		</div>
+		</div>
+		<!--底部-->
+		<div id="footer">
+			<div class="foot">
+				<div class="foot-content">
+					<div class="title">
+						<div class="item-img">
+							<img src="../css/img/icon_defense.png">
+						</div>
+						<p>品质保障</p>
+					</div>
+					<div class="foot-item">
+						<div class="item-img">
+							<img src="../css/img/icon_earth1.png">
+						</div>
+						<div class="text">
+							<span>源头直供</span>
+						</div>
+					</div>
+					<div class="foot-item">
+						<div class="item-img">
+							<img src="../css/img/icon_snow1.png">
+						</div>
+						<div class="text">
+							<span>自建冷库</span>
+						</div>
+					</div>
+					<div class="foot-item">
+						<div class="item-img car">
+							<img src="../css/img/icon_car1.png">
+						</div>
+						<div class="text">
+							<span>专属配送</span>
+						</div>
+					</div>
+					<div class="foot-item">
+						<div class="item-img">
+							<img src="../css/img/icon_tree1.png">
+						</div>
+						<div class="text last">
+							<span>本地直采</span>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div class="copyright">
+				<div class="footer_menu">
+					<div class="footer_menu_sub">
+						<ul>
+							<h3>公司介绍</h3>
+							<li class="yCmsComponent">
+								<a href="#" title="关于永辉" target="_blank">关于永辉</a>
+							</li>
+							<li class="yCmsComponent">
+								<a href="#" title="全国门店" target="_blank">全国门店</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer_menu_sub">
+						<ul>
+							<h3>购物流程</h3>
+							<li class="yCmsComponent">
+								<a href="#" title="新用户注册" target="_blank">新用户注册</a>
+							</li>
+							<li class="yCmsComponent">
+								<a href="#" title="购物流程" target="_blank">购物流程</a>
+							</li>
+							<li class="yCmsComponent">
+								<a href="#" title="配送费用" target="_blank">配送费用</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer_menu_sub">
+						<ul>
+							<h3>支付方式</h3>
+							<li class="yCmsComponent">
+								<a href="#" title="永辉钱包支付" target="_blank">永辉钱包支付</a>
+							</li>
+							<li class="yCmsComponent">
+								<a href="#" title="银联支付" target="_blank">银联支付</a>
+							</li>
+							<li class="yCmsComponent">
+								<a href="#" title="支付宝支付" target="_blank">支付宝支付</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer_menu_sub">
+						<ul>
+							<h3>售后服务</h3>
+							<li class="yCmsComponent">
+								<a href="#" title="退货政策" target="_blank">退货政策</a>
+							</li>
+							<li class="yCmsComponent">
+								<a href="#" title="退货流程" target="_blank">退货流程</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer_menu_sub">
+						<ul>
+							<h3>常见问题</h3>
+							<li class="yCmsComponent">
+								<a href="#" title="发票制度" target="_blank">发票制度</a>
+							</li>
+							<li class="yCmsComponent">
+								<a href="#" title="联系客服" target="_blank">联系客服</a>
+							</li>
+						</ul>
+					</div>
+					<div class="partners-entrance">
+						<a href="#">
+							<img src="../css/img/wechat.jpg">
+						</a>
+						<h3>关注我们的微信</h3>
+					</div>
+					<div class="partners-entrance">
+						<a href="#">
+							<img src="../css/img/headerFooter_03.png">
+						</a>
+						<h3>关注我们的微店</h3>
+					</div>
+					<div class="partners-entrance">
+						<a href="#">
+							<div class="phonebox">
+								<div class="phone"></div>
+								<div class="texts">
+									<h3 class="text">
+             						客服服务热线
+             						</h3>
+									<div class="numb">
+										400&nbsp;100&nbsp;9333
+									</div>
+								</div>
+							</div>
+							<div class="time">
+								服务时间：07:00-22:00
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="copyright_icp">Copyright @2015 永辉超市 版权所有 闽ICP备05003392号</div>
+			</div>
+		</div>
+		<div id="fixedbtn">
+			<a href="#" class="btn_car"></a>
+			<a href="#" class="btn_self"></a>
+			<a href="#" class="btn_msg"></a>
+			<a href="#" class="btn_ewm">
+				<div class="btn_phongimg"><img src="../css/img/bottom-fixednav6.jpg">永辉手机APP</div>
+				<div class="btn_r"></div>
+			</a>
+			<a class="btn_top"></a>
+		</div>
+
+	</body>
+
+</html>

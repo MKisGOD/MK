@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+		<script src="../js/jquery-1.12.0.js"></script>
+		<script type="text/javascript" src="../js/base.js" ></script>
+		<script type="text/javascript" src="../js/login.js"></script>
+		<link rel="stylesheet" href="../css/login.css" type="text/css" />
+		<link rel="stylesheet" href="../css/common.css" type="text/css" />
+	</head>
+
+	<body>
+		<!--头部-->
+		<div class="header">
+			<div class="header_box">
+				<div class="logo">
+					<a href="../index.html"><img src="../css/img/logo.png"> </a>
+				</div>
+			</div>
+		</div>
+		<!--内容-->
+		<div class="main">
+			<!--左边图片-->
+			<div class="left-img">
+				<img src="../img/contentImage.png" />
+			</div>
+			<!--右边登录-->
+			<form id="loginform" class="login">
+				<div class="title">登录</div>
+				<div class="username">
+					<label>用户名：</label>
+					<input id="ID" type="text" placeholder="请输入用户名"/>
+				</div>
+				<div class="password">
+					<label>密&nbsp; &nbsp;码：</label>
+					<a href="#">忘记密码？</a>
+					<input id="PWD" type="password" placeholder="请输入密码"/>
+				</div>
+				<!--用Cookie记住用户名并自动读取-->
+				<div class="remenber">
+					<input id="rmb" type="checkbox" />
+					<label>记住用户名</label>
+				</div>
+				<div class="loginbtn">
+					<a id="lgbtn">登录</a>
+				</div>
+				<div class="otherbtn">
+					<a style="float: left;" href="#">激活账户</a>
+					<a style="float: right;" href="register.html">免费注册</a>
+				</div>
+				<div class="otherlogin">
+					<label>使用合作的网站账号登录</label>
+					<a href="#"><img src="../css/img/baidu-logo.jpg">百度</a>
+					<a href="#"><img src="../css/img/qq-logo.png">QQ</a>
+					<a href="#"><img src="../css/img/weixin-logo.jpg">微信</a>
+				</div>
+			</form>
+		</div>
+	</body>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>注册</title>
+		<script src="../js/jquery-1.12.0.js"></script>
+		<link rel="stylesheet" href="../css/common.css" type="text/css" />
+		<link rel="stylesheet" href="../css/register.css" type="text/css" />
+		<script src="../assets/jquery.validate.js"></script>
+		<script src="../assets/jquery.validate.messages_zh.js"></script>
+		<script src="../js/base.js"></script>
+		<script src="../js/register.js"></script>
+	</head>
+
+	<body>
+		<!--logo-->
+		<div class="header">
+			<div class="logobox">
+				<div class="logo">
+					<a href="../index.html"><img src="../css/img/logo.png" /></a>
+				</div>
+			</div>
+		</div>
+		<!--内容-->
+		<div class="main">
+			<div class="register">
+				<div class="titlebox">
+					<div class="title">会员注册</div>
+				</div>
+				<div class="content">
+					<form method="get" id="registerform">
+						<div class="item">
+							<label class="label"><span style="color: red;">*</span>帐号：</label>
+							<input type="text" name="id" id="id" placeholder="手机号码/邮箱" />
+						</div>
+						<div class="item">
+							<label class="label"><span style="color: red;">*</span>密码：</label>
+							<input type="password" name="pwd" id="pwd" placeholder="请输入6-20位数字和字母的组合" />
+						</div>
+						<div class="item">
+							<label class="label"><span style="color: red;">*</span>确认密码：</label>
+							<input type="password" id="pwd2" name="pwd2" placeholder="再确认一次密码" disabled="disabled">
+						</div>
+						<div class="item yzM">
+							<label class="label"><span style="color: red;">*</span>验证码：</label>
+							<input type="text" id="yzm" name="yzm" placeholder="验证码" />
+							<button  type="button" id="sendyzm">获取验证码</button>
+						</div>
+
+						<div class="item">
+							<div class="bottom">
+								<input type="checkbox" id="agree" name="agree" value="">
+								<label for="">我已阅读并同意</label> 《
+								<a href="#">永辉商城服务协议</a>》
+							</div>
+							<div class="item">
+								<input onclick="location.href='login.html'" type="button" id="registerbtn" disabled="disabled" value="同意协议并注册" style="background: rgb(221,221,221);" ></input>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

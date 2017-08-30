@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>列表页</title>
+		<link rel="stylesheet" href="../css/common.css" type="text/css" />
+		<link rel="stylesheet" href="../css/list.css" type="text/css" />
+		<script src="../js/jquery-1.12.0.js"></script>
+		<script src="../js/base.js"></script>
+		<script src="../js/list.js"></script>
+		<script src="../js/common.js"></script>
+	</head>
+
+	<body>
+		<!--头部 只保留第一行和第三行-->
+		<div id="header">
+			<div id="head">
+				<div id="header1" class="topyc">
+					<div class="header1_box">
+						<div class="header1_login">
+							<span>Hi，欢迎来永辉超市&nbsp;&nbsp;&nbsp;</span>
+							<a href="login.html">登录</a>&nbsp;&nbsp;&nbsp;
+							<a href="register.html">免费注册</a>
+							<a class="exitbtn" href="list.html">退出登录</a>
+						</div>
+						<div class="header1_help">
+							我的永辉
+							<a class="header1_phone" href="#">手机永辉
+								<div class="header1_phongimg"><div class="qxtop"></div><img src="../css/img/bottom-fixednav6.jpg"></div>
+							</a>
+							<a href="#">帮助中心</a>
+						</div>
+					</div>
+				</div>
+				<div id="header3" class="topxs">
+					<div class="header3_box">
+						<div class="header3_logo topyc">
+							<a href="../index.html"><img src="../img/logo.jpg" /></a>
+						</div>
+						<div class="header3_city topyc">
+							<span>福州市<div class="header3_btn1"></div></span>
+							
+							<div class="header3_city2">
+								<div class="qxtop"></div>
+								<h6>选择收获地址</h6>
+								<div class="header3_city2_input">
+									<select>
+										<option>福建省</option>
+										<option>福建省</option>
+										<option>福建省</option>
+									</select>
+									<select>
+										<option>福建省</option>
+										<option>福建省</option>
+										<option>福建省</option>
+									</select>
+									<select>
+										<option>福建省</option>
+										<option>福建省</option>
+										<option>福建省</option>
+									</select>
+									<input type="text" placeholder="请输入详细地址" />
+									<button>提交</button>
+								</div>
+							</div>
+						</div>
+						<div class="search">
+							<form>
+								<input type="text" placeholder="请输入关键字" />
+								<button>搜索</button>
+							</form>
+							<span class="topyc">
+					<a href="#">凉席</a>
+					<a href="#">凉席</a>
+					<a href="#">凉席</a>
+					<a href="#">凉席</a>
+					<a href="#">凉席</a>
+					<a href="#">凉席</a>
+					<a href="#">凉席</a>
+					<a href="#">凉席</a>
+					</span>
+						</div>
+						<div class="car">
+							<a href="car.html">
+								<div class="carbox">
+									<div class="carimg"></div>购物车&nbsp;<span class="carsum">0</span>&nbsp;件
+								</div>
+							</a>
+						</div>
+						<div class="header3_img topyc">
+							<img src="../img/baozheng.png" />
+						</div>
+					</div>
+				</div>
+					<div id="header4" class="topyc">
+					<ul class="header4_box">
+						<li class="tit tt">
+							<a href="list.html">商品全部分类</a>
+							<div class="fenlei">
+								<div class="flbox">
+									<div class="flbox-left">生鲜、水果1
+										<div class="icons-add"></div>
+									</div>
+									<div class="flbox-right">
+										<ul>
+											<li>
+												<a class="primary-c">肉类/肉制品/蛋</a>
+												<i class="crumbArrow">&gt;</i>
+												<a>肉禽</a>
+												<a>蛋类</a>
+												<a>进口肉类</a>
+												<a>冷冻</a>
+												<a>鲜肉</a>
+												<a>内脏及骨类</a>
+											</li>
+											<li>
+												<a class="primary-c">水产123123</a>
+												<i class="crumbArrow">&gt;</i>
+												<a>鱼</a>
+												<a>虾</a>
+												<a>蟹</a>
+												<a>贝类</a>
+												<a>软体</a>
+												<a>进口水产</a>
+												<a>其他水产</a>
+											</li>
+											<li>
+												<a class="primary-c">干货</a>
+												<i class="crumbArrow">&gt;</i>
+												<a>食用菌类</a>
+												<a>豆类</a>
+												<a>海鲜类</a>
+												<a>茶类</a>
+												<a>干菜类</a>
+											</li>
+											<li>
+												<a class="primary-c"> 加工品</a>
+												<i class="crumbArrow">&gt;</i>
+												<a>面包</a>
+												<a>蛋糕</a>
+												<a>点心</a>
+											</li>
+											<li>
+												<a class="primary-c">果蔬</a>
+												<i class="crumbArrow">&gt;</i>
+												<a>水果</a>
+												<a>蔬菜</a>
+												<a>进口水果</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="flbox">
+									<div class="flbox-left">生鲜、水果2
+										<div class="icons-add"></div>
+									</div>
+									<div class="flbox-right">
+										<ul>
+											<li>
+												<a class="primary-c">肉类/肉制品/蛋</a>
+												<i class="crumbArrow">&gt;</i>
+												<a>肉禽</a>
+												<a>蛋类</a>
+												<a>进口肉类</a>
+												<a>冷冻</a>
+												<a>鲜肉</a>
+												<a>内脏及骨类</a>
+											</li>
+											<li>
+												<a class="primary-c">水产123123</a>
+												<i class="crumbArrow">&gt;</i>
+												<a>鱼</a>
+												<a>虾</a>
+												<a>蟹</a>
+												<a>贝类</a>
+												<a>软体</a>
+												<a>进口水产</a>
+												<a>其他水产</a>
+											</li>
+											<li>
+												<a class="primary-c">干货</a>
+												<i class="crumbArrow">&gt;</i>
+												<a>食用菌类</a>
+												<a>豆类</a>
+												<a>海鲜类</a>
+												<a>茶类</a>
+												<a>干菜类</a>
+											</li>
+											<li>
+												<a class="primary-c"> 加工品</a>
+											</li>
+											<li>
+												<a class="primary-c">果蔬</a>
+												<i class="crumbArrow">&gt;</i>
+												<a>水果</a>
+												<a>蔬菜</a>
+												<a>进口水果</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="flbox">
+									<div class="flbox-left">生鲜、水果3
+										<div class="icons-add"></div>
+									</div>
+									<div class="flbox-right">
+										<ul>
+											<li>
+												<a class="primary-c">肉类/肉制品/蛋</a>
+												<i class="crumbArrow">&gt;</i>
+												<a>肉禽</a>
+												<a>蛋类</a>
+												<a>进口肉类</a>
+												<a>冷冻</a>
+												<a>鲜肉</a>
+												<a>内脏及骨类</a>
+											</li>
+											<li>
+												<a class="primary-c">水产123123</a>
+												<i class="crumbArrow">&gt;</i>
+												<a>鱼</a>
+												<a>进口水产</a>
+												<a>其他水产</a>
+											</li>
+											<li>
+												<a class="primary-c">干货</a>
+												<i class="crumbArrow">&gt;</i>
+												<a>食用菌类</a>
+												<a>豆类</a>
+												<a>海鲜类</a>
+												<a>茶类</a>
+												<a>干菜类</a>
+											</li>
+											<li>
+												<a class="primary-c"> 加工品</a>
+												<i class="crumbArrow">&gt;</i>
+												<a>面包</a>
+												<a>蛋糕</a>
+												<a>点心</a>
+											</li>
+											<li>
+												<a class="primary-c">果蔬</a>
+												<i class="crumbArrow">&gt;</i>
+												<a>水果</a>
+												<a>蔬菜</a>
+												<a>进口水果</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="flbox">
+									<div class="flbox-left">生鲜、水果4
+										<div class="icons-add"></div>
+									</div>
+									<div class="flbox-right">
+										<ul>
+											<li>
+												<a class="primary-c">肉类/肉制品/蛋</a>
+												<i class="crumbArrow">&gt;</i>
+												<a>肉禽</a>
+												<a>蛋类</a>
+												<a>进口肉类</a>
+												<a>冷冻321</a>
+												<a>鲜肉</a>
+												<a>内脏及骨类</a>
+											</li>
+											<li>
+												<a class="primary-c">水产123123</a>
+												<i class="crumbArrow">&gt;</i>
+												<a>软体</a>
+												<a>进口水产</a>
+												<a>其他水产</a>
+											</li>
+											<li>
+												<a class="primary-c">干货</a>
+												<i class="crumbArrow">&gt;</i>
+												<a>食用菌类</a>
+												<a>豆类</a>
+												<a>海鲜类</a>
+												<a>茶类</a>
+												<a>干菜类</a>
+											</li>
+											<li>
+												<a class="primary-c"> 加工品</a>
+												<i class="crumbArrow">&gt;</i>
+												<a>面包</a>
+												<a>蛋糕</a>
+												<a>点心</a>
+											</li>
+											<li>
+												<a class="primary-c">果蔬</a>
+												<i class="crumbArrow">&gt;</i>
+												<a>水果</a>
+												<a>蔬菜</a>
+												<a>进口水果</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="flbox">
+									<div class="flbox-left">生鲜、水果5
+										<div class="icons-add"></div>
+									</div>
+									<div class="flbox-right">
+										<ul>
+											<li>
+												<a class="primary-c">肉类/肉制品/蛋</a>
+												<i class="crumbArrow">&gt;</i>
+												<a>肉禽</a>
+												<a>蛋类</a>
+												<a>进口肉类</a>
+												<a>冷冻</a>
+												<a>鲜肉</a>
+												<a>内脏及骨类</a>
+											</li>
+											<li>
+												<a class="primary-c">水产123123</a>
+												<i class="crumbArrow">&gt;</i>
+												<a>进口水产</a>
+												<a>其他水产</a>
+											</li>
+											<li>
+												<a class="primary-c">干货</a>
+												<i class="crumbArrow">&gt;</i>
+												<a>食用菌类</a>
+												<a>豆类</a>
+												<a>海鲜类</a>
+												<a>茶类</a>
+												<a>干菜类</a>
+											</li>
+											<li>
+												<a class="primary-c"> 加工品</a>
+												<i class="crumbArrow">&gt;</i>
+												<a>面包</a>
+												<a>蛋糕</a>
+												<a>点心</a>
+											</li>
+											<li>
+												<a class="primary-c">果蔬</a>
+												<i class="crumbArrow">&gt;</i>
+												<a>水果</a>
+												<a>蔬菜</a>
+												<a>进口水果</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="flbox">
+									<div class="flbox-left">生鲜、水果6
+										<div class="icons-add"></div>
+									</div>
+									<div class="flbox-right">
+										<ul>
+											<li>
+												<a class="primary-c">肉类/肉制品/蛋</a>
+												<i class="crumbArrow">&gt;</i>
+												<a>肉禽</a>
+												<a>蛋类</a>
+												<a>进口肉类</a>
+												<a>冷冻</a>
+												<a>鲜肉</a>
+												<a>内脏及骨类</a>
+											</li>
+											<li>
+												<a class="primary-c">水产123123</a>
+												<i class="crumbArrow">&gt;</i>
+												<a>鱼</a>
+												<a>虾</a>
+												<a>蟹</a>
+												<a>贝类</a>
+												<a>软体</a>
+												<a>进口水产</a>
+												<a>其他水产</a>
+											</li>
+											<li>
+												<a class="primary-c">干货</a>
+												<i class="crumbArrow">&gt;</i>
+												<a>食用菌类</a>
+												<a>豆类</a>
+												<a>干菜类</a>
+											</li>
+											<li>
+												<a class="primary-c"> 加工品</a>
+												<i class="crumbArrow">&gt;</i>
+												<a>面包</a>
+												<a>蛋糕</a>
+												<a>点心</a>
+											</li>
+											<li>
+												<a class="primary-c">果蔬</a>
+												<i class="crumbArrow">&gt;</i>
+												<a>水果</a>
+												<a>蔬菜</a>
+												<a>进口水果</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="flbox">
+									<div class="flbox-left">生鲜、水果7
+										<div class="icons-add"></div>
+									</div>
+									<div class="flbox-right">
+										<ul>
+											<li>
+												<a class="primary-c">肉类/肉制品/蛋</a>
+												<i class="crumbArrow">&gt;</i>
+												<a>肉禽</a>
+												<a>蛋类</a>
+												<a>进口肉类</a>
+												<a>冷冻</a>
+												<a>鲜肉</a>
+												<a>内脏及骨类</a>
+											</li>
+											<li>
+												<a class="primary-c">水产123123</a>
+												<i class="crumbArrow">&gt;</i>
+												<a>鱼</a>
+												<a>虾</a>
+												<a>蟹</a>
+												<a>贝类</a>
+												<a>软体</a>
+												<a>进口水产</a>
+												<a>其他水产</a>
+											</li>
+											<li>
+												<a class="primary-c">干货</a>
+												<i class="crumbArrow">&gt;</i>
+												<a>食用菌类</a>
+												<a>豆类</a>
+												<a>海鲜类</a>
+												<a>茶类</a>
+												<a>干菜类</a>
+											</li>
+											<li>
+												<a class="primary-c"> 加工品</a>
+												<i class="crumbArrow">&gt;</i>
+												<a>面包</a>
+												<a>蛋糕</a>
+												<a>点心</a>
+											</li>
+											<li>
+												<a class="primary-c">果蔬</a>
+												<i class="crumbArrow">&gt;</i>
+												<a>水果</a>
+												<a>蔬菜</a>
+												<a>进口水果</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="flbox">
+									<div class="flbox-left">生鲜、水果8
+										<div class="icons-add"></div>
+									</div>
+									<div class="flbox-right">
+										<ul>
+											<li>
+												<a class="primary-c">肉类/肉制品/蛋</a>
+												<i class="crumbArrow">&gt;</i>
+												<a>肉禽</a>
+												<a>冷冻</a>
+												<a>鲜肉</a>
+												<a>内脏及骨类</a>
+											</li>
+											<li>
+												<a class="primary-c">水产123123</a>
+												<i class="crumbArrow">&gt;</i>
+												<a>鱼</a>
+												<a>虾</a>
+												<a>蟹</a>
+												<a>贝类</a>
+												<a>软体</a>
+												<a>进口水产</a>
+												<a>其他水产</a>
+											</li>
+											<li>
+												<a class="primary-c">干货</a>
+												<i class="crumbArrow">&gt;</i>
+												<a>食用菌类</a>
+												<a>豆类</a>
+												<a>海鲜类</a>
+												<a>茶类</a>
+												<a>干菜类</a>
+											</li>
+											<li>
+												<a class="primary-c"> 加工品</a>
+												<i class="crumbArrow">&gt;</i>
+												<a>面包</a>
+												<a>蛋糕</a>
+												<a>点心</a>
+											</li>
+											<li>
+												<a class="primary-c">果蔬</a>
+												<i class="crumbArrow">&gt;</i>
+												<a>水果</a>
+												<a>蔬菜</a>
+												<a>进口水果</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="topyc tt">
+							<a href="#">首页</a>
+						</li>
+						<li class="topyc tt">
+							<a href="#">全球购</a>
+						</li>
+						<li class="topyc tt">
+							<a href="#">永辉钱包</a>
+						</li>
+						<!--文字轮播-->
+						<li class="lunbo1 topyc">
+							<div class="lunbo1_left"></div>
+							<div class="lunbo1_text">
+								<div id="lunbo1_gun" class="lunbo1_gun">
+									<a href="#" title="欢迎光临永辉微店！" target="_blank">欢迎光临永辉微店！</a>
+									<a href="#" title="京琪专场 如此好米-用细节打败平庸" target="_blank">京琪专场 如此好米-用细节打败平庸</a>
+									<a href="#" title="道心园专区 巴马养生五谷 源自长寿之乡" target="_blank">道心园专区 巴马养生五谷 源自长寿之乡</a>
+									<a href="#" title="欢迎光临永辉微店！" target="_blank">欢迎光临永辉微店！</a>
+								</div>
+							</div>
+							<div class="lunbo1_right"></div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<!--内容-->
+		<div id="sth">
+			<!--路径栏-->
+			<div class="addre">
+				<a href="../index.html">主页</a>
+			</div>
+			<div class="clear"></div>
+			<!--商品列表内容-->
+			<div class="list1">
+				<!--左列表-->
+				<div class="left-list">
+					<div class="left-box">
+						<div class="tit">热卖推荐</div>
+						<ul>
+							<li>
+								<a href="#">
+									<img src="../img/leftlist1.jpg" width="80">
+									<span>ABC亲柔立围日用超级薄卫生巾K83  8片</span>
+									<br>
+									<span style="color: red;">￥10.5</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="../img/leftlist1.jpg" width="80">
+									<span>ABC亲柔立围日用超级薄卫生巾K83  8片</span>
+									<br>
+									<span style="color: red;">￥10.5</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="../img/leftlist1.jpg" width="80">
+									<span>ABC亲柔立围日用超级薄卫生巾K83  8片</span>
+									<br>
+									<span style="color: red;">￥10.5</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="../img/leftlist1.jpg" width="80">
+									<span>ABC亲柔立围日用超级薄卫生巾K83  8片</span>
+									<br>
+									<span style="color: red;">￥10.5</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="../img/leftlist1.jpg" width="80">
+									<span>ABC亲柔立围日用超级薄卫生巾K83  8片</span>
+									<br>
+									<span style="color: red;">￥10.5</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!--右列表-->
+				<div class="right-list">
+					<!--第一个filter为筛选项-->
+					<div class="filter">
+						<div class="filter-box">
+							<div class="filter-box-box">
+								<div class="option-area">
+									<label>品牌：</label>
+									<div class="option-list">
+										<a href="#">生鲜(160)</a>
+										<a href="#">生鲜(160)</a>
+										<a href="#">生鲜(160)</a>
+										<a href="#">生鲜(160)</a>
+										<a href="#">生鲜(160)</a>
+										<a href="#">生鲜(160)</a>
+										<a href="#">生鲜(160)</a>
+									</div>
+									<div class="event-area">
+										<a href="#">更多+</a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<!--第二个filter也为筛选项-->
+					<div class="filter">
+						<div class="filter-box2">
+							<div class="option-area">
+								<a style="background: #f5f5f5;color: #e0221c;">默认</a>
+								<a>销量</a>
+								<a>上架时间</a>
+								<a>销量</a>
+								<a>上架时</a>
+							</div>
+							<div class="price-area">
+								<input type="text" placeholder="￥" />
+								<span>-</span>
+								<input type="text" placeholder="￥" />
+								<input type="button" value="确定" />
+							</div>
+							<div class="checkstore">
+								<input id="vis" type="checkbox" />
+								<label for="vis">只看有货</label>
+							</div>
+							<div class="checkstore">
+								<input id="qqg" type="checkbox" />
+								<label for="qqg">全球购</label>
+							</div>
+							<div class="page-wrap-area">
+								<div class="page-num">共<span>424</span>页/共<span>5083</span>条记录</div>
+								<div class="page-btn">
+									<a href="#"><span href="#" class="pagezuo"></span></a>
+									<a href="#"><span href="#" class="pageyou"></span></a>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<!--商品-->
+					<div class="product-listing">
+						<!--<div class="product-grid">
+							<a href="product.html">
+									<img src="../img/rio.jpg" />
+									<p class = "proname">锐澳鸡尾酒礼品装275ml*6&nbsp;</p>
+							</a>
+							<div class="price-group">
+								<span class="price">￥75.00</span>
+                				<del>￥81.00</del>
+                			</div>
+                			<div class="add-cart">
+                				<a href="#" class="discussion">已有0人评价</a>
+                				<a class="addbt" href="#">加入购物车</a>
+                			</div>
+                			<span class="icon-sales">特价</span>
+						</div>-->
+					</div>
+					<!--页码-->
+					<div id="page"></div>
+				</div>
+			</div>
+		</div>
+		<!--底部-->
+		<div id="footer">
+			<div class="foot">
+				<div class="foot-content">
+					<div class="title">
+						<div class="item-img">
+							<img src="../css/img/icon_defense.png">
+						</div>
+						<p>品质保障</p>
+					</div>
+					<div class="foot-item">
+						<div class="item-img">
+							<img src="../css/img/icon_earth1.png">
+						</div>
+						<div class="text">
+							<span>源头直供</span>
+						</div>
+					</div>
+					<div class="foot-item">
+						<div class="item-img">
+							<img src="../css/img/icon_snow1.png">
+						</div>
+						<div class="text">
+							<span>自建冷库</span>
+						</div>
+					</div>
+					<div class="foot-item">
+						<div class="item-img car">
+							<img src="../css/img/icon_car1.png">
+						</div>
+						<div class="text">
+							<span>专属配送</span>
+						</div>
+					</div>
+					<div class="foot-item">
+						<div class="item-img">
+							<img src="../css/img/icon_tree1.png">
+						</div>
+						<div class="text last">
+							<span>本地直采</span>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div class="copyright">
+				<div class="footer_menu">
+					<div class="footer_menu_sub">
+						<ul>
+							<h3>公司介绍</h3>
+							<li class="yCmsComponent">
+								<a href="#" title="关于永辉" target="_blank">关于永辉</a>
+							</li>
+							<li class="yCmsComponent">
+								<a href="#" title="全国门店" target="_blank">全国门店</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer_menu_sub">
+						<ul>
+							<h3>购物流程</h3>
+							<li class="yCmsComponent">
+								<a href="#" title="新用户注册" target="_blank">新用户注册</a>
+							</li>
+							<li class="yCmsComponent">
+								<a href="#" title="购物流程" target="_blank">购物流程</a>
+							</li>
+							<li class="yCmsComponent">
+								<a href="#" title="配送费用" target="_blank">配送费用</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer_menu_sub">
+						<ul>
+							<h3>支付方式</h3>
+							<li class="yCmsComponent">
+								<a href="#" title="永辉钱包支付" target="_blank">永辉钱包支付</a>
+							</li>
+							<li class="yCmsComponent">
+								<a href="#" title="银联支付" target="_blank">银联支付</a>
+							</li>
+							<li class="yCmsComponent">
+								<a href="#" title="支付宝支付" target="_blank">支付宝支付</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer_menu_sub">
+						<ul>
+							<h3>售后服务</h3>
+							<li class="yCmsComponent">
+								<a href="#" title="退货政策" target="_blank">退货政策</a>
+							</li>
+							<li class="yCmsComponent">
+								<a href="#" title="退货流程" target="_blank">退货流程</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer_menu_sub">
+						<ul>
+							<h3>常见问题</h3>
+							<li class="yCmsComponent">
+								<a href="#" title="发票制度" target="_blank">发票制度</a>
+							</li>
+							<li class="yCmsComponent">
+								<a href="#" title="联系客服" target="_blank">联系客服</a>
+							</li>
+						</ul>
+					</div>
+					<div class="partners-entrance">
+						<a href="#">
+							<img src="../css/img/wechat.jpg">
+						</a>
+						<h3>关注我们的微信</h3>
+					</div>
+					<div class="partners-entrance">
+						<a href="#">
+							<img src="../css/img/headerFooter_03.png">
+						</a>
+						<h3>关注我们的微店</h3>
+					</div>
+					<div class="partners-entrance">
+						<a href="#">
+							<div class="phonebox">
+								<div class="phone"></div>
+								<div class="texts">
+									<h3 class="text">
+             						客服服务热线
+             						</h3>
+									<div class="numb">
+										400&nbsp;100&nbsp;9333
+									</div>
+								</div>
+							</div>
+							<div class="time">
+								服务时间：07:00-22:00
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="copyright_icp">Copyright @2015 永辉超市 版权所有 闽ICP备05003392号</div>
+			</div>
+		</div>
+		<!--悬浮按钮-->
+		<div id="fixedbtn">
+			<a href="#" class="btn_car"></a>
+			<a href="#" class="btn_self"></a>
+			<a href="#" class="btn_msg"></a>
+			<a href="#" class="btn_ewm">
+				<div class="btn_phongimg"><img src="../css/img/bottom-fixednav6.jpg">永辉手机APP</div>
+				<div class="btn_r"></div>
+			</a>
+			<a class="btn_top"></a>
+		</div>
+
+	</body>
+
+</html>

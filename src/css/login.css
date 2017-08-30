@@ -1,0 +1,118 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	    min-width: 1190px;
+    width: 100%;
+    float: left;
+    background: #fff;
+    border-bottom: red 2px solid;
+}
+.header_box{
+	margin: auto;
+	max-width: 1190px;
+	clear: both;
+}
+.logo {
+    float: left;
+    margin: 25px 0 20px 0;
+    height: 41px;
+}
+img{
+	border: none;
+}
+a{
+	text-decoration: none;
+}
+.main{
+	width: 1190px;
+	margin: auto;
+	clear: both;
+}
+.left-img{
+    width: 460px;
+    margin: 40px 0 0 110px;
+    float: left;
+}
+.login{
+	    width: 300px;
+    float: right;
+    background: #f8f8f8;
+    margin: 40px 120px 0 0;
+    padding: 30px 40px 25px;
+    border: 1px solid #f1f1f1;
+}
+.title{
+	    text-align: center;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+.login label{
+	display: block;
+	font-size: 14px;
+}
+.username{
+	position: relative;
+}
+.login input{
+	width: 290px;
+}
+.login a{
+	text-decoration: none;
+    color: #7d7d7d;
+}
+.password{
+	position: relative;
+	margin-top: 10px;
+	padding-top:15px ;
+}
+.password label{
+	float: left;
+}
+.password a{
+	float: right;
+}
+.remenber{
+	margin-top:35px ;
+}
+.remenber input{
+	vertical-align: middle;
+}
+.remenber label{
+	display: inline;
+	font-size: 12px;
+}
+#lgbtn{
+	text-align: center;
+	display: block;
+	width: 100%;
+    cursor: pointer;
+    padding: 3px 0;
+    line-height: 28px;
+    color: #ffffff;
+    font-size: 18px;
+    background: #e0221c;
+    margin-top: 3px;
+}
+.otherbtn{
+	line-height: 24px;
+}
+.otherlogin{
+	margin-top: 40px;
+	padding-top: 10px;
+}
+.otherlogin label{
+	margin-bottom: 5px;
+}
+.otherlogin a{
+	float: left;
+	color: #4C4C4C;
+	margin-right:15px;
+}
+.otherlogin a img{
+	float: left;
+    width: 18px;
+    height: 18px;
+    margin: 3px 5px 0 0;
+}
